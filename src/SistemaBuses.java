@@ -2,7 +2,7 @@ package sistemabuses;
 
 import java.util.Scanner;
 
-class SistemaBuses {
+public class SistemaBuses {
     static String[] paradas = new String[5];
     static String[][] horarios = new String[5][2]; // [parada][0 = salida, 1 = llegada]
     static String[][] rutas = new String[3][5]; // [ruta][paradas]
